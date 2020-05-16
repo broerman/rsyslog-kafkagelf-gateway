@@ -9,7 +9,7 @@ a not to old linux distibution ( in this case CentOS 7 )
 
 #### Install packages
 
-In  distributions **rsyslog** ist default.
+In  distributions **rsyslog** ist default. You find documentation on http://www.rsyslog.com 
 
     yum install rsyslog
     yum install rsyslog-mmjsonparse
