@@ -27,6 +27,8 @@ You can  multiple this template with different "name" and "\_type" to assign it 
 $ModLoad imuxsock
 $ModLoad imklog
 
+$ModLoad omkafka
+
 template(name="rsyslog" type="list") {
     constant(value="{\"version\":\"1.1\",")
     constant(value="\"host\":\"")
